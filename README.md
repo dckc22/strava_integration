@@ -4,6 +4,11 @@ Strava Integration
 
 This repo is used for pulling my Strava activities and playing around with the data, by activity type.
 
+- In 'get_tokens.py', go to the Strava URL, enter client_id, authorize when prompted, and copy the 'code' in the URL to the space provided further down in the script.
+    - Once run, a file 'tokens/strava_tokens.json' will get updated with your refresh token that can be used later
+- 'pull_activities.ipynb' is a notebook to play around with the data
+    - Eventually I will create classes & functions that will update a set of metrics & charts that I can use to analyze my training data for the last X days/weeks/months
+
 
 ## Why:
 
