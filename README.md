@@ -5,6 +5,10 @@ Strava Integration
 This repo is used for pulling my Strava activities and playing around with the data, by activity type.
 
 
+## Why:
+
+I enjoy looking at prior training data by activity (run/bike), and analyzing my pace/speed, cadence, heart rate, etc.
+
 
 ## Credit:
 
