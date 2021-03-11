@@ -12,7 +12,7 @@ This repo is used for pulling my Strava activities and playing around with the d
 
 ## Why:
 
-I enjoy looking at historical training data by activity (run/bike), and analyzing my pace/speed, cadence, heart rate, etc. As I ramp up for a particular race, I want to confirm my volume ramps up appropriately for the outcome I expect.
+I enjoy looking at historical training data by activity (run/bike), and analyzing my pace/speed, cadence, heart rate, etc. As I ramp up for a particular race, I want to confirm my volume ramps up appropriately for the outcome I expect. Most of the features I want to analyze my data with are only available in the paid subscription to Strava. The API allows me to draw similar conclusions, without the need to pay the premium.
 
 
 ## Credit:
