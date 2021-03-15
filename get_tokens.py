@@ -6,18 +6,19 @@ import webbrowser
 config = configparser.ConfigParser()
 config.read('tokens/config.ini')
 
+# Enter your strava client_id to bring you to the authorization page
 my_client_id = input("Enter your Strava client_id: ")
 
 # Create the URL to authorize: 
 authorize_url = 'http://www.strava.com/oauth/authorize?client_id=' + my_client_id + '&response_type=code&redirect_uri=http://localhost/exchange_token&approval_prompt=force&scope=profile:read_all,activity:read_all'
 
-# Authorize use of API:
+# Opens a webbrowser to accept authorization:
 webbrowser.open(authorize_url, new=2)
 
-# Get the code from the URL
+# Paste the code from the URL to authenticate this session
 my_authorization_code = input("Enter the authorization code from the URL: ")
 
-# Make Strava auth API call with your client_code, client_secret and code
+# Make Strava auth API call with client_code, client_secret and code
 response = requests.post(
                     url = 'https://www.strava.com/oauth/token',
                     data = {
