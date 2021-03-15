@@ -8,6 +8,7 @@ This repo is used for pulling my Strava activities and playing around with the d
     - Once run, a file 'tokens/strava_tokens.json' will get updated with your refresh token that can be used later
 - 'pull_activities.ipynb' is a notebook to play around with the data
     - Eventually I will create classes & functions that will update a set of metrics & charts that I can use to analyze my training data for the last X days/weeks/months
+    - I may explore using Flask for creating a dynamic html site
 
 
 ## Why:
@@ -19,5 +20,5 @@ I enjoy looking at historical training data by activity (run/bike), and analyzin
 
 The code used to pull my activities using the Strava API is roughly the same as what was done here: https://medium.com/swlh/using-python-to-connect-to-stravas-api-and-analyse-your-activities-dummies-guide-5f49727aac86
 
-I changed a few of the token initialization to suit my needs. I've also added my own analysis.
+I changed a few of the token initializations to suit my needs. I've also added my own analysis.
 
