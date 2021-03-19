@@ -1,3 +1,4 @@
 *.json
 *.ini
 /tokens/
+/__pycache__
